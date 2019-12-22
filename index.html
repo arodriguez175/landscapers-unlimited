@@ -27,6 +27,18 @@
     <!-- background image -->
     <img id="background-image" src="images/apple-computer-desk-devices-326503.jpg" alt="apple computer and desk">
     
+    <div id="container">
+    
+    <div id="monster">Hello</div>
+    <div>Hello</div>
+    <div class="hideme">Fade In</div>
+    <div class="hideme">Fade In</div>
+    <div class="hideme">Fade In</div>
+    <div class="hideme">Fade In</div>
+    <div class="hideme">Fade In</div>
+    
+</div>
+    
     <!-- 3 project thumbnails -->
     <div class="container">
         <h2>Our Work</h2>
@@ -62,5 +74,42 @@
     </div>
     
 </body>
+    <!-- Jquery -->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    
+    <script>
+        $(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+    </script>
+    
+    <!-- Javascript -->
     <script src="js/functionality.js"></script>
 </html>
