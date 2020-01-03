@@ -1,3 +1,4 @@
+// Mobile Menu
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -6,3 +7,7 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+
+// Auto-updating Copyright Year
+document.getElementById("footer").innerHTML="Copyright&copy; "+(new Date().getFullYear());
