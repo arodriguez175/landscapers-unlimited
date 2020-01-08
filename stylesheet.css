@@ -1,5 +1,6 @@
 /* Grid */
-body {
+body, html {
+  height: 100%;
   margin: 0;
 }
 
@@ -188,11 +189,11 @@ body {
     width: 100%;
   }
 
-  #hero-text {
-    text-align: center;
-    position: relative;
-    top: -200px;
-  }
+  /*#hero-text {
+      text-align: center;
+      position: relative;
+      top: -200px;
+  }*/
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -209,11 +210,11 @@ body {
     float: right;
   }
 
-  #hero-text {
-    text-align: center;
-    position: relative;
-    top: -350px;
-  }
+  /*#hero-text {
+      text-align: center;
+      position: relative;
+      top: -350px;
+  }*/
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -226,11 +227,11 @@ body {
     width: 100%;
   }
 
-  #hero-text {
-    text-align: center;
-    position: relative;
-    top: -300px;
-  }
+  /*#hero-text {
+      text-align: center;
+      position: relative;
+      top: -300px;
+  }*/
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -243,11 +244,11 @@ body {
     width: 50%;
   }
 
-  #hero-text {
-    text-align: center;
-    position: relative;
-    top: -400px;
-  }
+  /*#hero-text {
+      text-align: center;
+      position: relative;
+      top: -400px;
+  }*/
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -260,16 +261,22 @@ body {
     width: 30%;
   }
 
-  #hero-text {
-    text-align: center;
-    position: relative;
-    top: -550px;
-  }
+  /*#hero-text {
+      text-align: center;
+      position: relative;
+      top: -550px;
+  }*/
 }
 /* */
-#background-image {
-  max-width: 100%;
-  height: auto;
+.bg {
+  /* The image used */
+  background-image: url(images/1.jpg);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {
@@ -306,6 +313,15 @@ body {
   left: 0;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+#hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
