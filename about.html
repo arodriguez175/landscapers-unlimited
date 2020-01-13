@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <meta name="keywords" content="">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/37706423a3.js" crossorigin="anonymous"></script>
     </head>
 <body>
     
@@ -57,41 +57,7 @@
     </div>
     
 </body>
-    <!-- Jquery -->
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
     
-    <script>
-        $(function(){  // $(document).ready shorthand
-  $('.monster').fadeIn('slow');
-});
-
-$(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.hideme').each( function(i){
-            
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},1500);
-                    
-            }
-            
-        }); 
-    
-    });
-    
-});
-    </script>
     
     <!-- Javascript -->
     <script src="js/functionality.js"></script>
