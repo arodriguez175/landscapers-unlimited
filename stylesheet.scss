@@ -199,12 +199,6 @@ body, html {
   background-size: cover;
 }
 
-#footer-container {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
 #button-holder-home {
     text-align: center;
     
@@ -247,3 +241,20 @@ body, html {
     padding: 10px;
 }
 
+/* Footer */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  text-align: center;
+}
