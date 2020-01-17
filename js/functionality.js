@@ -10,4 +10,4 @@ function myFunction() {
 
 
 // Auto-updating Copyright Year
-document.getElementById("footer").innerHTML="Copyright&copy; "+(new Date().getFullYear());
+document.getElementById("footer").innerHTML="Copyright&copy; "+(new Date().getFullYear())+", Landscapers Unlimited, Inc.";
