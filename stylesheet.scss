@@ -258,3 +258,18 @@ body, html {
   height: 2.5rem;            /* Footer height */
   text-align: center;
 }
+
+#hero-text {
+    h1 {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    h2 {
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+p, a, h2, h3, footer {
+    font-family: 'Raleway', sans-serif;
+}
+

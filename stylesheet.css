@@ -309,4 +309,15 @@ body, html {
   text-align: center;
 }
 
+#hero-text h1 {
+  font-family: "Roboto", sans-serif;
+}
+#hero-text h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+p, a, h2, h3, footer {
+  font-family: "Raleway", sans-serif;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
