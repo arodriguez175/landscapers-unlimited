@@ -306,8 +306,12 @@ body, html {
   height: 2.5rem;
   /* Footer height */
   text-align: center;
+  background-color: #363636;
+  color: #ffffff;
+  padding: 10px;
 }
 
+/**/
 #hero-text h1 {
   font-family: "Roboto", sans-serif;
 }
