@@ -135,7 +135,7 @@ body, html {
 }
 .topnav {
   overflow: hidden;
-  background-color: #363636;
+  background-color: #805138;
 }
 
 .topnav a {
@@ -149,8 +149,7 @@ body, html {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #806A5E;
 }
 
 .topnav .icon {
@@ -306,7 +305,7 @@ body, html {
   height: 2.5rem;
   /* Footer height */
   text-align: center;
-  background-color: #363636;
+  background-color: #805138;
   color: #ffffff;
   padding: 10px;
 }
