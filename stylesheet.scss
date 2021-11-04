@@ -95,7 +95,7 @@ body, html {
 @media only screen and (max-width: 600px) {
     
     
-    .topnav a {
+    .navbar-container a {
         display: none;
     }
     
@@ -187,6 +187,23 @@ body, html {
 }
 
 /* */
+
+/* Github */
+#github {
+    position: absolute;
+    top: 70px;
+    margin: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+#github-onwhite {
+    color: #363636;
+    position: absolute;
+    top: 70px;
+    margin: 20px;
+    font-size: 30px;
+}
 
 .bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/1.jpg);
